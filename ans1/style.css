@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* Light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+  width: 320px; /* Slightly wider */
+}
+
+h2 {
+  text-align: center;
+  color: #1976d2; /* Blue heading */
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #0d47a1; /* Darker blue for label */
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #1976d2; /* Blue border */
+  border-radius: 4px;
+  background-color: #f0f8ff; /* Light blue input background */
+}
+
+button {
+  padding: 10px;
+  background-color: #1565c0; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d47a1; /* Darker blue on hover */
+}
+
+#message {
+  text-align: center;
+  color: #d32f2f; /* Red for error message */
+  margin-top: 10px;
+}
+

@@ -1,0 +1,8 @@
+--install flask
+
+pip install Flask
+
+
+--run 
+
+python3 app.py

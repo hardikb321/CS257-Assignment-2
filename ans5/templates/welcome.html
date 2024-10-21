@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="welcome-container">
+      <img
+        src="{{ url_for('static', filename='images/logo.png') }}"
+        alt="IIT Indore Logo"
+      />
+      <h1>Welcome to IIT Indore</h1>
+    </div>
+
+    <div class="course-details">
+      <h2>BTech CSE Course Details</h2>
+      <table cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Course Code</th>
+            <th>Course Title</th>
+            <th>Credits</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ZZ xxx</td>
+            <td>Course-I for Minor Program</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>MA 205</td>
+            <td>Complex Analysis</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>MA 207</td>
+            <td>Differential Equations-II</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>CS 201</td>
+            <td>Discrete Mathematical Structures</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>CS 203</td>
+            <td>Data Structures and Algorithms</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>CS 207N</td>
+            <td>Database and Information Systems</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>CS 209</td>
+            <td>Logic Design</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>CS 253</td>
+            <td>Data Structures and Algorithms Lab</td>
+            <td>1.5</td>
+          </tr>
+          <tr>
+            <td>CS 257</td>
+            <td>Database and Information Systems Lab</td>
+            <td>1.5</td>
+          </tr>
+          <tr>
+            <td>CS 2XX</td>
+            <td>Department Elective I</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+/* static/css/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e3f2fd; /* Soft blue background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding-inline: 40px;
+  padding-block: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  min-width: 320px; /* Slightly wider */
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #1565c0; /* Blue heading */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0d47a1; /* Dark blue for label */
+}
+
+input {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #1976d2; /* Blue border */
+  border-radius: 4px;
+  background-color: #f1f8ff; /* Light blue input background */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1e88e5; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: #1565c0; /* Darker blue on hover */
+}
+
+.welcome-container {
+  text-align: center;
+}
+
+.welcome-container img {
+  width: 150px;
+  margin-top: 20px;
+}
